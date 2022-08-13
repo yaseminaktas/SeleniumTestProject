@@ -9,21 +9,22 @@ public class Test_Add_Product_To_Cart extends BaseTest {
     ProductDetailPage productDetailPage ;
     CartPage cartPage ;
 
+
     @Test
     @Order(1)
     public void search_a_product(){
         homePage= new HomePage(driver);
         productsPage = new ProductsPage(driver);
         homePage.searchBox().search("roman");
-        Assertions.assertTrue(productsPage.isOnProductPage(), "Not On Product Page!");
+        Assertions.assertTrue(productsPage.isOnProductPage());   //arama butonuna roman yazıp aratıyor.
     }
 
     @Test
     @Order(2)
     public void select_a_product(){
         productDetailPage = new ProductDetailPage(driver);
-        productsPage.selectProduct(1);
-        Assertions.assertTrue(productDetailPage.isOnProductDetailPage(), "Not On Product Detail Page!");
+        productsPage.selectProduct(2);
+        Assertions.assertTrue(productDetailPage.isOnProductDetailPage(), "Not On Product Detail Page!");  //ürünü seçiyor
     }
 
     @Test
@@ -32,12 +33,32 @@ public class Test_Add_Product_To_Cart extends BaseTest {
         productDetailPage.addToCart();
         Assertions.assertTrue(homePage.isProductCountUp(), "Product count did not Increase!");
     }
-
     @Test
     @Order(4)
+    public void clickCart(){  //sepete tıklanıyor.
+        homePage.clickCart();
+    }
+
+    @Test
+    @Order(5)
     public void go_to_cart(){
-        cartPage= new CartPage(driver);
+        cartPage = new CartPage(driver);
         homePage.goToCart();
-        Assertions.assertTrue(cartPage.checkIfTheProductAdded(), "Product was not added to cart!");
+        Assertions.assertTrue(cartPage.checkIfTheProductAdded() ,
+                "Product was not added to cart!");
+    }
+
+    @Test
+    @Order(6)
+    public  void go_cart_update(){
+        homePage.cart_update();
+
+    }
+
+    @Test
+    @Order(7)
+    public void removeCart(){
+        homePage.removeCart();
+        Assertions.assertTrue(cartPage.checkIfTheProductAdded());
     }
 }
