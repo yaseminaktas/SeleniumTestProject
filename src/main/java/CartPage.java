@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CartPage extends BasePage {
 
-    By productNameLocator = new By.ByCssSelector("cart-selected-button");
+    By productNameLocator = new By.ByCssSelector("td.name");
     public CartPage(WebDriver driver){
         super(driver);
     }

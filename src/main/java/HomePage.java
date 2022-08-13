@@ -5,7 +5,7 @@ public class HomePage extends BasePage{
 
     SearchBox searchBox;
     By cartCountLocator= By.id("cart-items");
-    By clickCart = By.id("sprite-cart-icon");
+    By cartClick = By.id("sprite-cart-icon");
     By cartContainerLocator = By.id("js-cart");
 
     By cartUpdate = new By.ByCssSelector("i.fa.fa-refresh.green-icon");
@@ -22,7 +22,7 @@ public class HomePage extends BasePage{
         return getCartCount() > 0;
     }
     public void clickCart(){
-        click(clickCart);
+        click(cartClick);
     }
     public void goToCart() {
         click(cartContainerLocator);

@@ -31,11 +31,11 @@ public class Test_Add_Product_To_Cart extends BaseTest {
     @Order(3)
     public void add_product_to_cart(){
         productDetailPage.addToCart();
-        Assertions.assertTrue(homePage.isProductCountUp(), "Product count did not Increase!");
+        Assertions.assertTrue(homePage.isProductCountUp());
     }
     @Test
     @Order(4)
-    public void clickCart(){  //sepete tıklanıyor.
+    public void clickCart(){
         homePage.clickCart();
     }
 
@@ -44,8 +44,7 @@ public class Test_Add_Product_To_Cart extends BaseTest {
     public void go_to_cart(){
         cartPage = new CartPage(driver);
         homePage.goToCart();
-        Assertions.assertTrue(cartPage.checkIfTheProductAdded() ,
-                "Product was not added to cart!");
+        Assertions.assertTrue(cartPage.checkIfTheProductAdded(),  "Product was not added to cart!");
     }
 
     @Test
@@ -59,6 +58,6 @@ public class Test_Add_Product_To_Cart extends BaseTest {
     @Order(7)
     public void removeCart(){
         homePage.removeCart();
-        Assertions.assertTrue(cartPage.checkIfTheProductAdded());
+        Assertions.assertFalse(cartPage.checkIfTheProductAdded(), "Page is not null ");
     }
 }

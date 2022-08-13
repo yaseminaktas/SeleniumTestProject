@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a9f74c27-d822-4021-be51-20866592a708" name="Changes" comment="Selenium Test Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test_Add_Product_To_Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Add_Product_To_Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +44,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
     "last_directory_selection": "C:/Users/MDP/source/repos/SeleniumTestProject/src/main/java",
+    "last_opened_file_path": "C:/Users/MDP/source/repos/SeleniumTestProject",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -110,8 +109,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test_Add_Product_To_Cart" />
-        <item itemvalue="JUnit.Test_Add_Product_To_Cart.clickCart" />
         <item itemvalue="JUnit.Test_Add_Product_To_Cart.add_product_to_cart" />
+        <item itemvalue="JUnit.Test_Add_Product_To_Cart.clickCart" />
         <item itemvalue="JUnit.Test_Add_Product_To_Cart.search_a_product" />
         <item itemvalue="JUnit.Test_Add_Product_To_Cart (1)" />
       </list>
@@ -126,6 +125,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660341896776</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium Test Project">
+      <created>1660391321104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660391321104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
