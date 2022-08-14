@@ -247,3 +247,150 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: 3322787b399cc3b6e4497d781e257ecb
 *** Element info: {Using=css selector, value=i.fa.fa-times.red-icon} 
+2022-08-13 22:43:54,552 INFO  [Log] search_a_product() PASSED 
+2022-08-13 22:43:55,347 INFO  [Log] select_a_product() PASSED 
+2022-08-13 22:43:55,546 ERROR [Log] add_product_to_cart() FAILED with cause : expected: <true> but was: <false> 
+2022-08-13 22:43:55,624 INFO  [Log] clickCart() PASSED 
+2022-08-13 22:43:55,665 ERROR [Log] go_to_cart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#js\-cart"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac3d338ee4d75dca8d799b33ffcf60f
+*** Element info: {Using=id, value=js-cart} 
+2022-08-13 22:43:55,699 ERROR [Log] go_cart_update() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-refresh.green-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac3d338ee4d75dca8d799b33ffcf60f
+*** Element info: {Using=css selector, value=i.fa.fa-refresh.green-icon} 
+2022-08-13 22:43:55,722 ERROR [Log] removeCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-times.red-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ac3d338ee4d75dca8d799b33ffcf60f
+*** Element info: {Using=css selector, value=i.fa.fa-times.red-icon} 
+2022-08-14 08:46:53,436 INFO  [Log] search_a_product() PASSED 
+2022-08-14 08:46:54,488 INFO  [Log] select_a_product() PASSED 
+2022-08-14 08:46:54,648 ERROR [Log] add_product_to_cart() FAILED with cause : expected: <true> but was: <false> 
+2022-08-14 08:46:54,830 INFO  [Log] clickCart() PASSED 
+2022-08-14 08:46:55,207 ERROR [Log] go_to_cart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#js\-cart"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86409dc5ed84f3900ae8474418c5c4c7
+*** Element info: {Using=id, value=js-cart} 
+2022-08-14 08:46:55,270 ERROR [Log] go_cart_update() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-refresh.green-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86409dc5ed84f3900ae8474418c5c4c7
+*** Element info: {Using=css selector, value=i.fa.fa-refresh.green-icon} 
+2022-08-14 08:46:55,408 ERROR [Log] removeCart() FAILED with cause : Page is not null  ==> expected: <false> but was: <true> 
+2022-08-14 08:47:27,130 INFO  [Log] search_a_product() PASSED 
+2022-08-14 08:47:28,907 INFO  [Log] select_a_product() PASSED 
+2022-08-14 08:47:29,051 ERROR [Log] add_product_to_cart() FAILED with cause : expected: <true> but was: <false> 
+2022-08-14 08:47:29,105 INFO  [Log] clickCart() PASSED 
+2022-08-14 08:47:29,162 ERROR [Log] go_to_cart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#js\-cart"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 886a51caf8aa927baa74a53d1a3ca15f
+*** Element info: {Using=id, value=js-cart} 
+2022-08-14 08:47:29,195 ERROR [Log] go_cart_update() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-refresh.green-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 886a51caf8aa927baa74a53d1a3ca15f
+*** Element info: {Using=css selector, value=i.fa.fa-refresh.green-icon} 
+2022-08-14 08:47:29,226 ERROR [Log] removeCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-times.red-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 886a51caf8aa927baa74a53d1a3ca15f
+*** Element info: {Using=css selector, value=i.fa.fa-times.red-icon} 
+2022-08-14 08:47:47,894 INFO  [Log] search_a_product() PASSED 
+2022-08-14 08:47:48,779 INFO  [Log] select_a_product() PASSED 
+2022-08-14 08:47:48,949 ERROR [Log] add_product_to_cart() FAILED with cause : expected: <true> but was: <false> 
+2022-08-14 08:47:49,013 INFO  [Log] clickCart() PASSED 
+2022-08-14 08:47:49,051 ERROR [Log] go_to_cart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#js\-cart"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bc2e7603c2d62c4d62c62d86d7aefb1
+*** Element info: {Using=id, value=js-cart} 
+2022-08-14 08:47:49,122 ERROR [Log] go_cart_update() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-refresh.green-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bc2e7603c2d62c4d62c62d86d7aefb1
+*** Element info: {Using=css selector, value=i.fa.fa-refresh.green-icon} 
+2022-08-14 08:47:49,152 ERROR [Log] removeCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-times.red-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bc2e7603c2d62c4d62c62d86d7aefb1
+*** Element info: {Using=css selector, value=i.fa.fa-times.red-icon} 
+2022-08-14 08:56:39,584 INFO  [Log] search_a_product() PASSED 
+2022-08-14 08:56:40,307 INFO  [Log] select_a_product() PASSED 
+2022-08-14 08:56:40,503 ERROR [Log] add_product_to_cart() FAILED with cause : expected: <true> but was: <false> 
+2022-08-14 08:56:40,602 INFO  [Log] clickCart() PASSED 
+2022-08-14 08:56:40,642 ERROR [Log] go_to_cart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#js\-cart"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d7ce25e744454095eecb26ae2364588
+*** Element info: {Using=id, value=js-cart} 
+2022-08-14 08:56:40,689 ERROR [Log] go_cart_update() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-refresh.green-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d7ce25e744454095eecb26ae2364588
+*** Element info: {Using=css selector, value=i.fa.fa-refresh.green-icon} 
+2022-08-14 08:56:40,740 ERROR [Log] removeCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"i.fa.fa-times.red-icon"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OSC3BCJ', ip: '192.168.199.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MDP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d7ce25e744454095eecb26ae2364588
+*** Element info: {Using=css selector, value=i.fa.fa-times.red-icon} 
